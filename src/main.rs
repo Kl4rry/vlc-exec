@@ -7,7 +7,6 @@ fn main() {
     if first.is_some() {
         let mut vec: Vec<String> = vec![String::from("--sout-all"), String::from("--sout"), String::from("#display %1%")];
         vec.extend(args);
-        println!("{:?}", vec);
         Command::new("vlc")
             .args(vec)
             .spawn()
