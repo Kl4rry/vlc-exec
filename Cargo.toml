@@ -5,6 +5,10 @@ authors = ["Axel Kappel <axel.e.kappel@gmail.com>"]
 edition = "2018"
 description = "A program that starts vlc with all audio channels playing"
 license = "MIT"
+homepage = "https://github.com/Kl4rry/vlc-exec"
+repository = "https://github.com/Kl4rry/vlc-exec"
+keywords = ["cli", "vlc"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
