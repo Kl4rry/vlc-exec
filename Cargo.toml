@@ -1,0 +1,21 @@
+[package]
+name = "vlc-exec"
+version = "0.1.0"
+authors = ["Axel Kappel <axel.e.kappel@gmail.com>"]
+edition = "2018"
+description = "A program that starts vlc with all audio channels playing"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1.11"
+winapi = "0.3.9"
+
+[package.metadata.winres]
+OriginalFilename = "vlc-exec.exe"
+FileDescription = "vlc-exec"
+LegalCopyright = "Copyright © 2021 Axel Kappel"
+ProductName = "vlc-exec"
